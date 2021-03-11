@@ -11,7 +11,7 @@ http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Inde
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
 
-# 京东国际・环球挑战赛
+# 京东国际环球挑战赛
 cron 2 9 8-31 3 * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js
 
 # 领京豆额外奖励
