@@ -1,9 +1,6 @@
-[script]
-# 叮咚买菜
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js, enabled=true, tag=叮咚买菜
-
 [MITM]
 maicai.api.ddxq.mobi
 
-[rewrite_local]
-^https:\/\/maicai.api.ddxq.mobi\/point\/home url script-request-header mcdd.cookie.js
+[Script]
+http-request ^https:\/\/maicai.api.ddxq.mobi\/point\/home script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js
