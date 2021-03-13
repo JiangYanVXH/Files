@@ -15,8 +15,14 @@ cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 # 京东国际环球挑战赛
 cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
 
+# 工业品爱消除
+cron "30 * * * *" script-path=https://qxzy.top/rules/QuantumultX/js/jd_gyec.js, enabled=true, tag=工业品爱消除
+
+# 东东爱消除
+cron "0 * * * *" script-path=https://qxzy.top/rules/QuantumultX/js/jd_xxl.js, enabled=true, tag=东东爱消除
+
 # 领京豆额外奖励
-cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
+cron "12 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
 
 # 京东汽车
 cron "10 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
