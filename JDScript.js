@@ -12,9 +12,6 @@ hostname = api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.c
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
 
-# 京东超市大转盘
-cron "3 10 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_marketLottery.js, enabled=true, tag=京东超市-大转盘
-
 # 京东国际环球挑战赛
 cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
 
