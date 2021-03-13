@@ -1,9 +1,0 @@
-[Script]
-# 叮咚买菜
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
-
-# 获取叮咚买菜Cookie
-http-request ^https:\/\/maicai.api.ddxq.mobi\/point\/home script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js
-
-[MITM]
-maicai.api.ddxq.mobi
