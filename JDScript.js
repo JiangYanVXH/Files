@@ -10,7 +10,7 @@ hostname = api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.c
 # draw.jdfcloud.com 来客有礼
 
 # 来客有礼
-cron "4 0 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Files/main/JDlkyl.js, enabled=true, tag=来客有礼
+cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, enabled=true, tag=来客有礼
 
 # 来客有礼Cookie
 http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼Cookie
