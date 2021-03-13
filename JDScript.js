@@ -15,9 +15,6 @@ cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 # 京东国际环球挑战赛
 cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
 
-# 超级品类日
-cron "13 8,10 8-15 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_superDay.js, enabled=true, tag=超级品类日
-
 # 领京豆额外奖励
 cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
 
