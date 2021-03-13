@@ -42,5 +42,8 @@ http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-b
 # 用药助手
 http-response ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js, tag=用药助手
 
+# 电信查询
+http-response ^https?:\/\/e.189.cn\/store\/user\/package_detail.do script-request-body script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, tag=电信查询
+
 [MITM]
-hostname = api.m.jd.com,trade-acs.m.taobao.com,weixin110.qq.com,pan.baidu.com,
+hostname = api.m.jd.com,trade-acs.m.taobao.com,weixin110.qq.com,pan.baidu.com,e.189.cn
