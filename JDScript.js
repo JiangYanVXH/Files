@@ -1,19 +1,8 @@
 # 源文件地址
-# https://raw.githubusercontent.com/JiangYanVXH/Files/main/JDScript.js
-
-# IOS Loon Task&Cookies配置 By LXK9301
-# TG通知频道 (https://t.me/jdfruit)
 # Loon的Task&Cookies脚本订阅链接：https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/JD.conf
 # 使用方法：打开APP，顶部的配置 -> 脚本 -> 订阅脚本- > 点击右上角+号 -> 添加url链接
 
 hostname = api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, draw.jdfcloud.com
-# draw.jdfcloud.com 来客有礼
-
-# 来客有礼
-cron "4 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, enabled=true, tag=来客有礼
-
-# 来客有礼Cookie
-http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼Cookie
 
 # 获取Cookie
 # http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex) max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=获取Cookie
