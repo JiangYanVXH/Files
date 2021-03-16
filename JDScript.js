@@ -18,6 +18,9 @@ cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # 东东爱消除
 # cron "0 * * * *" script-path=https://qxzy.top/rules/QuantumultX/js/jd_xxl.js, enabled=true, tag=东东爱消除
 
+# 京东排行榜
+cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
+
 # 领京豆额外奖励
 cron "12 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
 
