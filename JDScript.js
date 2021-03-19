@@ -93,6 +93,9 @@ cron "10 8,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # 点点券
 cron "10 2,4,20 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js,tag=点点券
 
+# 抽奖机
+cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
+
 # 东东萌宠
 cron "15 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pet.js,tag=东东萌宠
 
