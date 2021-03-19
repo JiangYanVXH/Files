@@ -99,9 +99,6 @@ cron "15 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 # 种豆得豆
 cron "1 7-21/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_plantBean.js,tag=种豆得豆
 
-# 京东保价
-# cron "0 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_price.js,tag=京东保价
-
 # 全民开红包
 cron "1 1,2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js, tag=全民开红包
 
