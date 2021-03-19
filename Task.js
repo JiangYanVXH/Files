@@ -1,3 +1,6 @@
+# 电信套餐查询
+cron "20 23 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, enabled=true, tag=电信套餐查询
+
 # 叮咚买菜
 # cron "10 6 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
 
