@@ -2,11 +2,10 @@
 # Loon的Task&Cookies脚本订阅链接：https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/JD.conf
 # 使用方法：打开APP，顶部的配置 -> 脚本 -> 订阅脚本- > 点击右上角+号 -> 添加url链接
 
-hostname = api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, draw.jdfcloud.com
+# hostname = api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, draw.jdfcloud.com
 
 # 获取Cookie
 # http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex) max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=获取Cookie
-
 # http-request https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js, tag=获取Cookie
 
 # 京豆变动通知
