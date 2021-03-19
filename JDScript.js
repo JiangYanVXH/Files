@@ -144,6 +144,9 @@ cron "10 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # 金融养猪
 # cron "12 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pigPet.js, tag=京东金融养猪猪
 
+# 京东特权值
+cron "5 8 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值
+
 # 京东保价
 # cron "0 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_price.js,tag=京东保价
 
