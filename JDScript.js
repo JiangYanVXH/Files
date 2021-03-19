@@ -24,9 +24,6 @@ cron "11 9,10 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/
 # 领京豆额外奖励
 cron "12 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
 
-# 京东成长
-cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/jdczf/jdczf.js, tag= 京东成长
-
 # 京东汽车
 cron "10 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
 
