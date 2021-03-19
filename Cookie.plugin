@@ -1,9 +1,12 @@
 
 [Script]
+# 微博（m.weibo.cn）
 http-request ^https:\/\/m\.weibo\.cn\/feed\/ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js,tag=微博通知
 
 # 京东（api.m.jd.com）
 http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东
 
+# 叮咚买菜、叮咚农场（maicai.api.ddxq.mobi）
+
 [mitm]
-hostname = m.weibo.cn, api.m.jd.com
+hostname = maicai.api.ddxq.mobi, m.weibo.cn, api.m.jd.com
