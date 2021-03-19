@@ -148,7 +148,7 @@ cron "10 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # cron "0 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_price.js,tag=京东保价
 
 # 京东物流
-cron "0 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流
+# cron "0 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流
 
 # 取关京东店铺和商品
 cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
