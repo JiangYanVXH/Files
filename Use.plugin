@@ -1,0 +1,16 @@
+[Script]
+# Boxjs Rewrite Loon TF
+# https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin
+http-request ^https?://boxjs.net script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120, tag=BoxJs.net
+
+# Boxjs Rewrite Loon
+# https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin
+http-request ^https?://boxjs.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js, requires-body=true, timeout=120, tag=BoxJs.com
+
+# TestFlight 更新（testflight.apple.com）
+# https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Download.conf
+# https://raw.githubusercontent.com/Skyxim/my-rule/main/TF-Download.plugin
+http-request ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install ,requires-body=true, timeout=10, tag=TestFlight 更新,script-path=https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js,enabled=true
+
+[Mitm]
+hostname=testflight.apple.com
