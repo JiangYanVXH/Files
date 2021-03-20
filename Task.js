@@ -25,6 +25,9 @@ cron "10 10,11 * * 2-5" script-path=https://raw.githubusercontent.com/i-chenzhe/
 # 众筹许愿池
 cron "10 10,15 13-20 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js,tag=众筹许愿池
 
+# 联想集卡
+cron "12 15 15-29 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js, tag=联想集卡活动
+
 # 一加盲盒
 cron "11 12 17-30 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js, tag=一加盲盒
 
@@ -36,6 +39,9 @@ cron "5 1,6,11,16,21 * 3-4 *" script-path=https://raw.githubusercontent.com/i-ch
 
 # 金口碑奖投票
 cron "5 10 * 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js, tag=金口碑奖投票
+
+# 摇一摇
+cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js,tag=摇一摇
 
 # 东东爱消除
 # cron "0 * * * *" script-path=https://qxzy.top/rules/QuantumultX/js/jd_xxl.js, enabled=true, tag=东东爱消除
