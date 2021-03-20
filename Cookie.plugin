@@ -20,10 +20,6 @@ http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/tas
 # 叮咚买菜APP - 我的 - 叮咚农场
 http-request ^https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚农场Cookie
 
-# 电信套餐（e.189.cn）‼️无效
-# 天翼账号中心APP - 登录即可获取 authToken
-# http-request ^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, tag=电信套餐查询
-
 [mitm]
 # 获取 Cookie 后, 请禁用 Cookie 脚本并移除主机名，以免产生不必要的MITM。
 hostname = maicai.api.ddxq.mobi, m.weibo.cn, api.m.jd.com, me-api.jd.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, draw.jdfcloud.com
