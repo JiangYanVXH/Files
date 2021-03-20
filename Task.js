@@ -20,7 +20,7 @@ cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # cron "12 0 19-24 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js, tag=城城分现金
 
 # 5G超级盲盒
-cron "5 1,6,11,16,21 * 3-4 * " script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒
+cron "5 1,6,11,16,21 * 3-4 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒
 
 # 东东爱消除
 # cron "0 * * * *" script-path=https://qxzy.top/rules/QuantumultX/js/jd_xxl.js, enabled=true, tag=东东爱消除
