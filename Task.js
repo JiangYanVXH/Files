@@ -19,6 +19,12 @@ cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # 城城分现金
 # cron "12 0 19-24 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js, tag=城城分现金
 
+# 百变大咖秀
+cron "10 10,11 * * 2-5" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js,tag=百变大咖秀
+
+# 众筹许愿池
+cron "10 10,15 13-20 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js,tag=众筹许愿池
+
 # 5G超级盲盒
 cron "5 1,6,11,16,21 * 3-4 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒
 
