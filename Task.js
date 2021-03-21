@@ -182,6 +182,3 @@ cron "4 3 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/ma
 
 # 取关京东店铺和商品
 cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
-
-# 电信套餐查询
-cron "23 20 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js, enabled=true, tag=电信套餐查询
