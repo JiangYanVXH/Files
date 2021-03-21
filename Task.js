@@ -182,3 +182,7 @@ cron "4 3 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/ma
 
 # 取关京东店铺和商品
 cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
+
+# > iOS系统
+# iOS限免通知
+cron "40 10,17 * * *" script-path=https://github.com/JiangYanVXH/Files/blob/main/iOSprice.js,tag=iOS限免监控
