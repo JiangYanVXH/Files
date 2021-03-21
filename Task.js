@@ -1,20 +1,19 @@
-# 叮咚买菜
+# > 叮咚买菜
+# 叮咚签到
 cron "10 6 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
-
 # 叮咚农场
 cron "1 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
 
+# > 微信小程序
 # 来客有礼
 cron "18 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, enabled=true, tag=来客有礼
 
+# > 京东APP
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
 
 # 京东国际环球挑战赛
 cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
-
-# 城城分现金
-# cron "12 0 19-24 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_city_cash.js, tag=城城分现金
 
 # 百变大咖秀
 cron "10 10,11 * * 2-5" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js,tag=百变大咖秀
@@ -158,7 +157,7 @@ cron "10 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 # http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js, requires-body=true, timeout=3600, tag=小米运动获取Token
 
 # 天天提鹅
-cron "10 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_egg.js,tag=天天提鹅
+# cron "10 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_egg.js,tag=天天提鹅
 
 # 京喜农场
 # cron "0 9,12,18 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxnc.js,tag=京喜农场
