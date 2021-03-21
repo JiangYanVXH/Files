@@ -182,7 +182,3 @@ cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 
 # 删除优惠券
 cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js,tag=京东删除优惠券
-
-# > iOS系统
-# iOS限免通知
-cron "40 10,17 * * *" script-path=https://github.com/JiangYanVXH/Files/blob/main/iOSprice.js,tag=iOS限免监控
