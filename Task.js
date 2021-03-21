@@ -3,8 +3,6 @@
 cron "10 6 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
 # 叮咚农场
 cron "1 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
-# 网红打卡地
-cron "17 4 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/activitySign.js,tag=叮咚网红打卡地
 
 # > 微信小程序
 # 来客有礼
