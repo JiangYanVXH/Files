@@ -2,5 +2,4 @@
 http-response ^https://appinstall.com url script-echo-response install.js, tag=IPA Installer
 
 [Mitm]
-hostname= appinstall.com
-simple_cert_hostname=appinstall.com
+hostname = appinstall.com
