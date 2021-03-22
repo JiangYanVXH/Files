@@ -19,12 +19,6 @@ http-request ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/bui
 # 京东比价（api.m.jd.com）
 # http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js, tag=京东比价(内置版)
 
-# >lxk0301（gitee.com）
-http-response ^https:\/\/gitee\.com\/lxk0301\/jd_scripts\/raw\/ url 302 https://jdsharedresourcescdn.azureedge.net/jdresource/, tag=lxk0301
-
 [Mitm]
-hostname=testflight.apple.com, gitee.com
+hostname=testflight.apple.com
 
-[Rule]
-# lxk0301（gitee.com）
-DOMAIN-SUFFIX,jdsharedresourcescdn.azureedge.net,♻️ 自动选择
