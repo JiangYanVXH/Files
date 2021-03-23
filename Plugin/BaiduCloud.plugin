@@ -1,9 +1,11 @@
-# 百度云盘解锁倍速播放限制(by nobyda)
-
 [Script]
+
+# 百度云盘解锁倍速播放限制(by nobyda)
 # http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 # http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, requires-body=true, timeout=10, tag=百度云解锁倍速
 http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, tag=百度云加速
 
+# issuecdn.baidupcs.com,pan.baidu.com,newclient.map.baidu.com,mime.baidu.com
+
 [MITM]
-MITM = pan.baidu.com
+hostname = pan.baidu.com
