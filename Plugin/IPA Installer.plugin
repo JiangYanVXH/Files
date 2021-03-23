@@ -1,10 +1,10 @@
-# 1. shu - *.ipa - 共享 Wi-Fi
+# 1. shu - app.ipa - 共享 Wi-Fi
 # 2. 备忘录中点击：
 # itms-services://?action=download-manifest&url=https://appinstall.com
 # https://raw.githubusercontent.com/langkhach270389/iPA_Plist/master/Jsbox.plist
 
 [Script]
-http-response ^https://appinstall.com url script-echo-response install.js, tag=IPA Installer
+http-response ^https://appinstall.com url script-echo-response install.js
 
 [Mitm]
 hostname = appinstall.com
