@@ -20,7 +20,7 @@
        <key>bundle-identifier</key>
        <string>com.yourwebsite.app</string>
        <key>bundle-version</key>
-       <string>*</string>
+       <string>1.0</string>
        <key>kind</key>
        <string>software</string>
        <key>title</key>
