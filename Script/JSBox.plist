@@ -11,7 +11,8 @@
           <string>software-package</string>
           <!-- 文件直链 -->
           <key>url</key>
-       <string>http://127.0.0.1:8080/download?path=%2Fapp.ipa</string>          
+       <string>http://localhost/
+/download?path=%2Fapp.ipa</string>          
         </dict>
       </array>
           <key>metadata</key>
