@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/langkhach270389/iPA_Plist/master/Jsbox.plist
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://127.0.0.1:8080/download?path=%2Fapp.ipa</string>
+					<string>http://localhost/download?path=%2Fapp.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
