@@ -1,8 +1,6 @@
 # 源文件
 # https://raw.githubusercontent.com/ACL4SSR//master/Clash/LocalAreaNetwork.list
-# >ACL4SSR规则
-
-# 本地/局域网地址
+# >本地网络直连规则（ACL4SSR）
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
 # 本地/局域网地址
@@ -36,7 +34,7 @@ DOMAIN-SUFFIX,zte.home
 
 # 源文件
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-# >Unbreak 白名单 不应该被广告链接的网站
+# >Unbreak 去广告白名单（不应该被广告链接的网站）
 
 # Epicgames
 DOMAIN-SUFFIX,ol.epicgames.com
@@ -65,7 +63,7 @@ DOMAIN,bdtj.tagtic.cn
 
 # 源文件
 # https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/AsianMedia.list
-# >AsianMedia.list
+# >国内媒体（AsianMedia.list）
 
 # Bilibili
 DOMAIN-KEYWORD,bilibili
