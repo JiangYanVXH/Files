@@ -1,5 +1,3 @@
-GEOIP,CN
-
 # >本地网络直连规则
 # https://raw.githubusercontent.com/ACL4SSR//master/Clash/LocalAreaNetwork.list
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
@@ -318,15 +316,8 @@ IP-CIDR,101.199.196.0/22,no-resolve
 USER-AGENT,手机淘宝*
 USER-AGENT,天猫*
 
-DOMAIN-SUFFIX,bokecc.com
-DOMAIN-SUFFIX,chaipip.com
-DOMAIN-SUFFIX,chinaplay.store
-DOMAIN-SUFFIX,hrtsea.com
-DOMAIN-SUFFIX,kaikeba.com
-DOMAIN-SUFFIX,laomo.me
-DOMAIN-SUFFIX,mpyit.com
-
 # CN域名直连
+GEOIP,CN
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,中国
 DOMAIN-SUFFIX,公司
@@ -691,6 +682,7 @@ DOMAIN-SUFFIX,foxmail.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,mail.qq.com
 DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qq.com
