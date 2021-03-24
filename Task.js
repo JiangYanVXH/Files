@@ -30,6 +30,9 @@ cron "11 12 17-30 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/q
 # 母婴跳一跳
 cron "5 8,14,20 17-25 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js,tag=母婴-跳一跳
 
+# 京东小魔方
+cron "10 10 25-27 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_xmf.js,tag=京东小魔方
+
 # 5G超级盲盒
 cron "5 1,6,11,16,21 * 3-4 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒
 
