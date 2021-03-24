@@ -1,6 +1,5 @@
 # MyList
-USER-AGENT,AppRaven*
-DOMAIN-SUFFIX,appraven.net
+USER-AGENT,*AppRaven*
 DOMAIN-SUFFIX,ccsub.cc
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,cccat.io
