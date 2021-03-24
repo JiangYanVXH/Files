@@ -333,6 +333,7 @@ USER-AGENT,京东*
 USER-AGENT,叮咚买菜*
 USER-AGENT,中信银行*
 USER-AGENT,TIM*
+DOMAIN,i.mail.qq.com
 
 # CN域名直连
 GEOIP,CN
