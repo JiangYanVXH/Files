@@ -325,6 +325,7 @@ IP-CIDR,101.199.196.0/22,no-resolve
 # MyList
 USER-AGENT,手机淘宝*
 USER-AGENT,淘宝特价版*
+USER-AGENT,%E6%B7%98%E5%AE%9D%E7%89%B9%E4%BB%B7%E7%89%88*
 USER-AGENT,天猫*
 
 # CN域名直连
@@ -406,8 +407,6 @@ DOMAIN-SUFFIX,mxhichina.com
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,taobaocdn.com
-DOMAIN-SUFFIX,m.taobao.com
-DOMAIN-SUFFIX,amdc.m.taobao.com
 DOMAIN-SUFFIX,tbcache.com
 DOMAIN-SUFFIX,tbcdn.com
 DOMAIN-SUFFIX,tmall.com
