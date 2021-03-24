@@ -327,6 +327,7 @@ USER-AGENT,手机淘宝*
 USER-AGENT,淘宝特价版*
 USER-AGENT,%E6%B7%98%E5%AE%9D%E7%89%B9%E4%BB%B7%E7%89%88*
 USER-AGENT,天猫*
+DOMAIN,amdc.m.taobao.com
 
 # CN域名直连
 GEOIP,CN
