@@ -325,9 +325,13 @@ IP-CIDR,101.199.196.0/22,no-resolve
 # MyList
 USER-AGENT,手机淘宝*
 USER-AGENT,淘宝特价版*
-USER-AGENT,%E6%B7%98%E5%AE%9D%E7%89%B9%E4%BB%B7%E7%89%88*
 USER-AGENT,天猫*
-DOMAIN,amdc.m.taobao.com
+USER-AGENT,支付宝*
+USER-AGENT,菜鸟*
+USER-AGENT,淘宝联盟*
+USER-AGENT,京东*
+USER-AGENT,叮咚买菜*
+USER-AGENT,中信银行*
 
 # CN域名直连
 GEOIP,CN
