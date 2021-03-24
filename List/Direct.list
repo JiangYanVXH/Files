@@ -308,12 +308,9 @@ IP-CIDR,101.198.128.0/18,no-resolve
 IP-CIDR,101.198.192.0/19,no-resolve
 IP-CIDR,101.199.196.0/22,no-resolve
 
-
-# >Unbreak 去广告白名单（不应该被广告链接的网站）
-# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-
 # 国内域名
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 
 # MyList
 USER-AGENT,手机淘宝*
@@ -847,6 +844,7 @@ DOMAIN-SUFFIX,air-matters.io
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,algocasts.io
 DOMAIN-SUFFIX,amd.com
+DOMAIN-SUFFIX,analytics.strava.com
 DOMAIN-SUFFIX,app.adjust.com
 DOMAIN-SUFFIX,b612.net
 DOMAIN-SUFFIX,babytree.com
@@ -893,6 +891,7 @@ DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,dangdang.com
 DOMAIN-SUFFIX,dfcfw.com
 DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,dizhensubao.getui.com
 DOMAIN-SUFFIX,dilidili.wang
 DOMAIN-SUFFIX,docschina.org
 DOMAIN-SUFFIX,douban.com
@@ -1007,9 +1006,11 @@ DOMAIN-SUFFIX,novipnoad.com
 DOMAIN-SUFFIX,nruan.com
 DOMAIN-SUFFIX,nuomi.com
 DOMAIN-SUFFIX,nvidia.com
+DOMAIN-SUFFIX,ol.epicgames.com
 DOMAIN-SUFFIX,onedns.net
 DOMAIN-SUFFIX,onlinedown.net
 DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,origin-a.akamaihd.net
 DOMAIN-SUFFIX,oschina.net
 DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,overcast.fm
@@ -1068,6 +1069,7 @@ DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tiexue.net
 DOMAIN-SUFFIX,tmiaoo.com
 DOMAIN-SUFFIX,tophub.today
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
