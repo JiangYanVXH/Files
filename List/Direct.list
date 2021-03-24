@@ -1,3 +1,5 @@
+GEOIP,CN
+
 # >本地网络直连规则
 # https://raw.githubusercontent.com/ACL4SSR//master/Clash/LocalAreaNetwork.list
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
