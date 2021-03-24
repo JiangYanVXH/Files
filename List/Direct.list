@@ -324,6 +324,7 @@ IP-CIDR,101.199.196.0/22,no-resolve
 
 # MyList
 USER-AGENT,手机淘宝*
+USER-AGENT,淘宝特价版*
 USER-AGENT,天猫*
 
 # CN域名直连
