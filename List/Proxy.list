@@ -1,4 +1,5 @@
 # >国外媒体
+
 # YouTube
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
@@ -406,12 +407,10 @@ DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
 
-# 代理列表
+# >代理列表
 
-# MyList && Other
-DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,adguard.org
-DOMAIN-SUFFIX,bit.no.com
+# MyList
+DOMAIN-SUFFIX,ccsub.cc
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,cloudcone.com
@@ -462,8 +461,10 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
 
 # Top Blocked Sites
+DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,4sqi.net
 DOMAIN-SUFFIX,a248.e.akamai.net
+DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,android.com
@@ -480,6 +481,7 @@ DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,bandwagonhost.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,bkrtx.com
 DOMAIN-SUFFIX,blogcdn.com
 DOMAIN-SUFFIX,blogger.com
