@@ -406,6 +406,8 @@ DOMAIN-SUFFIX,mxhichina.com
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,m.taobao.com
+#DOMAIN-SUFFIX,amdc.m.taobao.com
 DOMAIN-SUFFIX,tbcache.com
 DOMAIN-SUFFIX,tbcdn.com
 DOMAIN-SUFFIX,tmall.com
