@@ -1,6 +1,3 @@
-# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-
-
 # >国外媒体
 # YouTube
 USER-AGENT,*youtube*
