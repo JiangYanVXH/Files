@@ -341,7 +341,9 @@ DOMAIN,bdtj.tagtic.cn
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 
 # MyList
-DOMAIN-SUFFIX,423down.com
+USER-AGENT,手机淘宝*
+USER-AGENT,天猫*
+
 DOMAIN-SUFFIX,bokecc.com
 DOMAIN-SUFFIX,chaipip.com
 DOMAIN-SUFFIX,chinaplay.store
@@ -392,9 +394,6 @@ DOMAIN-SUFFIX,4399.com
 DOMAIN-SUFFIX,4399pk.com
 DOMAIN-SUFFIX,5054399.com
 DOMAIN-SUFFIX,img4399.com
-
-# 58
-DOMAIN-SUFFIX,58.com
 
 # Akamai
 DOMAIN-SUFFIX,akadns.net
@@ -854,11 +853,13 @@ DOMAIN-SUFFIX,360doc.com
 DOMAIN-SUFFIX,360in.com
 DOMAIN-SUFFIX,36kr.com
 DOMAIN-SUFFIX,3dmgame.com
+DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,51cto.com
 DOMAIN-SUFFIX,51job.com
 DOMAIN-SUFFIX,51jobcdn.com
 DOMAIN-SUFFIX,51ym.me
 DOMAIN-SUFFIX,56.com
+DOMAIN-SUFFIX,58.com
 DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,abercrombie.com
