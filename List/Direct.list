@@ -77,6 +77,16 @@ DOMAIN-SUFFIX,update.googleapis.com
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com
 DOMAIN-SUFFIX,www.gstatic.com
 
+# Microsoft China
+DOMAIN-SUFFIX,azure.cn
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,sharepoint.com
+
 # >国内云服务商IP段
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 
@@ -851,15 +861,18 @@ DOMAIN-SUFFIX,biqudu.com
 DOMAIN-SUFFIX,biquge.com
 DOMAIN-SUFFIX,bitauto.com
 DOMAIN-SUFFIX,bjango.com
+DOMAIN-SUFFIX,bokecc.com
 DOMAIN-SUFFIX,booking.com
 DOMAIN-SUFFIX,bstatic.com
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,cailianpress.com
 DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,cdnmama.com
+DOMAIN-SUFFIX,chaipip.com
 DOMAIN-SUFFIX,chaoxing.com
 DOMAIN-SUFFIX,che168.com
 DOMAIN-SUFFIX,chinacache.net
+DOMAIN-SUFFIX,chinaplay.store
 DOMAIN-SUFFIX,chinaso.com
 DOMAIN-SUFFIX,chinaz.com
 DOMAIN-SUFFIX,chinaz.net
@@ -924,6 +937,7 @@ DOMAIN-SUFFIX,gwdang.com
 DOMAIN-SUFFIX,gzlzfm.com
 DOMAIN-SUFFIX,haibian.com
 DOMAIN-SUFFIX,haosou.com
+DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
@@ -950,6 +964,7 @@ DOMAIN-SUFFIX,jiathis.com
 DOMAIN-SUFFIX,jidian.im
 DOMAIN-SUFFIX,jmstatic.com
 DOMAIN-SUFFIX,jumei.com
+DOMAIN-SUFFIX,kaikeba.com
 DOMAIN-SUFFIX,kaiyanapp.com
 DOMAIN-SUFFIX,kaola.com
 DOMAIN-SUFFIX,kaspersky-labs.com
@@ -963,6 +978,7 @@ DOMAIN-SUFFIX,kugou.com
 DOMAIN-SUFFIX,lancdns.com
 DOMAIN-SUFFIX,landiannews.com
 DOMAIN-SUFFIX,lanzou.com
+DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,lemicp.com
 DOMAIN-SUFFIX,letitfly.me
 DOMAIN-SUFFIX,licdn.com
@@ -989,6 +1005,7 @@ DOMAIN-SUFFIX,mogucdn.com
 DOMAIN-SUFFIX,mogujie.com
 DOMAIN-SUFFIX,moji.com
 DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,mpyit.com
 DOMAIN-SUFFIX,msg.umeng.com
 DOMAIN-SUFFIX,msg.umengcloud.com
 DOMAIN-SUFFIX,msstatic.com
