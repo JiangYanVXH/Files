@@ -12,6 +12,9 @@ cron "18 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/m
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
 
+# 答题赢京豆
+cron "5 1 23-25 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js, enabled=true, tag=答题赢京豆
+
 # 京东国际环球挑战赛
 cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
 
