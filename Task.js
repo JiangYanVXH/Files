@@ -51,6 +51,9 @@ cron "0 9 * * *" script-path=https://qxzy.top/rules/QuantumultX/js/zhiyi/ygkc.js
 # 领现金兑红包
 cron "3,4,5 0 * * *" script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_exchange.js, enabled=true, tag=领现金兑换红包
 
+# 自动领现金
+cron "15 7,15 * * *" script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_reward.js, enabled=true, tag=领现金自动获得酬劳
+
 # 摇一摇
 cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js,tag=摇一摇
 
