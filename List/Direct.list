@@ -339,7 +339,6 @@ DOMAIN-KEYWORD,alimama
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,appzapp
 DOMAIN-KEYWORD,baidupcs
-DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,ccgslb
 DOMAIN-KEYWORD,chinacache
 DOMAIN-KEYWORD,duobao
@@ -901,7 +900,6 @@ DOMAIN-SUFFIX,dilidili.wang
 DOMAIN-SUFFIX,docschina.org
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
-DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,dpfile.com
 DOMAIN-SUFFIX,duowan.com
 DOMAIN-SUFFIX,dxycdn.com
@@ -936,7 +934,6 @@ DOMAIN-SUFFIX,gzlzfm.com
 DOMAIN-SUFFIX,haibian.com
 DOMAIN-SUFFIX,haosou.com
 DOMAIN-SUFFIX,hrtsea.com
-DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hostbuf.com
@@ -1021,7 +1018,6 @@ DOMAIN-SUFFIX,onlinedown.net
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,origin-a.akamaihd.net
 DOMAIN-SUFFIX,oschina.net
-DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,polyv.net
@@ -1030,7 +1026,6 @@ DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qcloudcdn.com
 DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qdmm.com
-DOMAIN-SUFFIX,qhimg.com
 DOMAIN-SUFFIX,qianqian.com
 DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,qihucdn.com
@@ -1068,7 +1063,6 @@ DOMAIN-SUFFIX,startssl.com
 DOMAIN-SUFFIX,suning.com
 DOMAIN-SUFFIX,taihe.com
 DOMAIN-SUFFIX,takungpao.com
-DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,th-sjy.com
 DOMAIN-SUFFIX,tianqi.com
 DOMAIN-SUFFIX,tianqistatic.com
@@ -1105,16 +1099,13 @@ DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xiachufang.com
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xiaojukeji.com
-DOMAIN-SUFFIX,ximalaya.com
 DOMAIN-SUFFIX,xinhuanet.com
 DOMAIN-SUFFIX,xip.io
 DOMAIN-SUFFIX,xitek.com
 DOMAIN-SUFFIX,xiumi.us
-DOMAIN-SUFFIX,xmcdn.com
 DOMAIN-SUFFIX,xslb.net
 DOMAIN-SUFFIX,xueqiu.com
 DOMAIN-SUFFIX,yach.me
-DOMAIN-SUFFIX,yangkeduo.com
 DOMAIN-SUFFIX,yeepay.com
 DOMAIN-SUFFIX,yhd.com
 DOMAIN-SUFFIX,yihaodianimg.com
