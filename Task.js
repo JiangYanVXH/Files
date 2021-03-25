@@ -43,7 +43,10 @@ cron "5 1,6,11,16,21 * 3-4 *" script-path=https://raw.githubusercontent.com/i-ch
 cron "8 0,1 * 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js, tag=金口碑奖投票
 
 # 女装盲盒
-cron "0 8 22-31/1 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
+cron "0,5 8 22-31/1 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
+
+# 阳光矿场
+cron "0 9 * * *" script-path=https://qxzy.top/rules/QuantumultX/js/zhiyi/ygkc.js, enabled=true, tag=阳光矿场
 
 # 摇一摇
 cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js,tag=摇一摇
