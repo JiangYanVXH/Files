@@ -48,6 +48,9 @@ cron "0,5 8 22-31/1 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/
 # 阳光矿场
 cron "0 9 * * *" script-path=https://qxzy.top/rules/QuantumultX/js/zhiyi/ygkc.js, enabled=true, tag=阳光矿场
 
+# 领现金兑红包
+cron "0,1,2 0 * * *" script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_exchange.js, enabled=true, tag=领现金兑换红包
+
 # 摇一摇
 cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js,tag=摇一摇
 
