@@ -18,7 +18,7 @@ cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 # 京东国际环球挑战赛
 cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
 
-# 百变大咖秀
+# 百变大咖秀 
 cron "10 10,11 * * 2-5" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js,tag=百变大咖秀
 
 # 众筹许愿池
