@@ -31,6 +31,9 @@ IP-CIDR,205.180.175.0/24,no-resolve
 # Apple News
 DOMAIN-SUFFIX,apple.news
 
+# shazam
+DOMAIN-SUFFIX,shazam.com
+
 # Apple Music
 DOMAIN,aod.itunes.apple.com
 DOMAIN,api.smoot.apple.cn
