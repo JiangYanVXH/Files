@@ -323,6 +323,11 @@ IP-CIDR,101.199.196.0/22,no-resolve
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 
 # MyList
+USER-AGENT,*Due*,DIRECT
+USER-AGENT,钉钉*,DIRECT
+USER-AGENT,坚果云*,DIRECT
+USER-AGENT,*AppRaven*,DIRECT
+USER-AGENT,ListenBook*,DIRECT
 
 # CN域名直连
 GEOIP,CN
