@@ -32,7 +32,7 @@ IP-CIDR,205.180.175.0/24,no-resolve
 DOMAIN-SUFFIX,apple.news
 
 # shazam
-DOMAIN-SUFFIX,shazam.com
+DOMAIN,api-sk.shazam.com
 
 # Apple Music
 DOMAIN,aod.itunes.apple.com
