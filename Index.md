@@ -7,6 +7,7 @@ https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/BaiduCloud.plugi
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/BoxJS.plugin
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/Price.plugin
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/TF-Download.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/Bear.plugin
 
 List/
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/List/Apple.list
