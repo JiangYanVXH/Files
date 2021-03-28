@@ -8,6 +8,7 @@ https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/BoxJS.plugin
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/Price.plugin
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/TF-Download.plugin
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/Bear.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Files/main/Plugin/WPS.plugin
 
 List/
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/List/Apple.list
