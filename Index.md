@@ -1,4 +1,3 @@
-/
 https://github.com/JiangYanVXH/Files
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Cookie.plugin
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/Task.js
