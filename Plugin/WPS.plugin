@@ -1,9 +1,4 @@
 [Script]
-#http-response ^https://account.wps.*/api/users/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,tag=WPS
-#http-response ^https://account.wps.*/api/users/ requires-body=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wps.js,tag=WPS
-#http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1, script-path=https://raw.githubusercontent.com/787a68/Quantumult-X/main/Script/WPS.js, tag=WPS
-#http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, tag=WPS
-#http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/chaizia/MyQuantumultX/main/wps.js,tag=WPS
 http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, tag=WPS
 
 [MITM]
