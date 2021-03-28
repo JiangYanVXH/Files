@@ -1,1 +1,5 @@
+[Script]
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=scripts/bear.js, enabled=true, tag=Bear
 
+[MITM]
+hostname = buy.itunes.apple.com
