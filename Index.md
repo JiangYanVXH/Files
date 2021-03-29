@@ -15,3 +15,9 @@ https://raw.githubusercontent.com/JiangYanVXH/Files/main/List/Apple.list
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/List/Direct.list
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/List/Reject.list
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/List/Proxy.list
+
+IPA/
+https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/Esign.plist
+https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/JSBox.plist
+https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/IPA_Installer.plugin
+https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/IPA_Installer.js
