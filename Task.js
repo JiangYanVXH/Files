@@ -103,29 +103,29 @@ cron "2 9,12,20,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net
 # 京东赚赚
 cron "22 2,4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js,tag=京东赚赚
 
-# 宠汪汪
-cron "15 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
+# 源头好物红包
+cron "11 10 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_coupon.js, tag=源头好物红包
 
-# 宠汪汪喂食
-cron "15 0-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_feedPets.js,tag=京东宠汪汪喂食
+# 京东手机年终奖
+cron "16 0 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_festival.js, tag=京东手机年终奖
 
-# 宠汪汪强制为别人助力
-http-request ^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_help.js, requires-body=true, timeout=3600, tag=宠汪汪强制为别人助力
+# 集鞭炮赢京豆
+cron "10 8,21 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_firecrackers.js,tag=集鞭炮赢京豆
 
-# 宠汪汪积分兑换奖品
-cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
+# 京东神仙书院
+cron "20 8 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal.js,tag=京东神仙书院
 
-# 宠汪汪赛跑
-cron "15 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力
+# 京东神仙书院答题
+cron "20 8 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal_answer.js,tag=京东神仙书院答题
 
-# 宠汪汪助力更新Token
-http-response ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
+# 京东超级盒子
+cron "20 7 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_super_box.js,tag=京东超级盒子
 
-# 宠汪汪助力获取Token
-http-request ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, timeout=3600, tag=宠汪汪助力获取Token
+# 东东工厂
+cron "17 * * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jdfactory.js,tag=东东工厂
 
-# 宠汪汪偷好友积分与狗粮
-# cron "10 0-21/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js,tag=宠汪汪偷好友积分与狗粮
+# 京东直播
+cron "10-20/5 12 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_live.js,tag=京东直播
 
 # 京东快递签到
 cron "24 2,4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_kd.js, tag=京东快递签到
@@ -137,7 +137,8 @@ cron "3 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdr
 cron "10 8,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_ms.js,tag=秒秒币
 
 # 点点券
-cron "10 2,4,20 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js,tag=点点券
+#cron "10 2,4,20 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js,tag=点点券
+cron "10 0,4,20 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_necklace.js,tag=点点券
 
 # 东东萌宠
 cron "15 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pet.js,tag=东东萌宠
@@ -168,6 +169,30 @@ cron "3 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 
 # 赚京豆
 cron "10 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js, tag=赚京豆
+
+# 宠汪汪
+cron "15 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
+
+# 宠汪汪喂食
+cron "15 0-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_feedPets.js,tag=京东宠汪汪喂食
+
+# 宠汪汪强制为别人助力
+http-request ^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_help.js, requires-body=true, timeout=3600, tag=宠汪汪强制为别人助力
+
+# 宠汪汪积分兑换奖品
+cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
+
+# 宠汪汪赛跑
+cron "15 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力
+
+# 宠汪汪助力更新Token
+http-response ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
+
+# 宠汪汪助力获取Token
+http-request ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, timeout=3600, tag=宠汪汪助力获取Token
+
+# 宠汪汪偷好友积分与狗粮
+# cron "10 0-21/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js,tag=宠汪汪偷好友积分与狗粮
 
 # 小米运动
 # cron "15 17 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js, tag=小米运动
@@ -204,3 +229,6 @@ cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 
 # 删除优惠券
 cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js,tag=京东删除优惠券
+
+# 注销京东会员卡
+cron "55 23 * * 6" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_unbind.js,tag=注销京东会员卡
