@@ -213,4 +213,4 @@ cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js,tag=京东删除优惠券
 
 # 注销京东会员卡
-cron "55 23 * * 6" script-path=https://raw.githubusercontent.com/aledai/lxk9301/master/jd_unbind.js,tag=注销京东会员卡
+# cron "55 23 * * 6" script-path=https://raw.githubusercontent.com/aledai/lxk9301/master/jd_unbind.js,tag=注销京东会员卡
