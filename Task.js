@@ -191,7 +191,7 @@ cron "10 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 cron "56 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pigPet.js, tag=京东金融养猪猪
 
 # 京东到家
-cron "4 3 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, enabled=true, tag=京东到家
+# cron "4 3 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, enabled=true, tag=京东到家
 
 # 京东保价
 # cron "0 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_price.js,tag=京东保价
