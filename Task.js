@@ -6,7 +6,7 @@ cron "1 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Scri
 
 # > 淘宝系
 # 饿了么
-cron "45 5,10 * * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0, tag=饿了么
+# cron "45 5,10 * * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0, tag=饿了么
 
 # > 微信小程序
 # 来客有礼
