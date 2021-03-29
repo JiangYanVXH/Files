@@ -119,8 +119,8 @@ cron "3 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdr
 cron "10 8,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_ms.js,tag=秒秒币
 
 # 点点券
-#cron "10 2,4,20 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js,tag=点点券
-cron "10 0,4,20 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_necklace.js,tag=点点券
+cron "10 2,4,20 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js,tag=点点券
+#cron "10 0,4,20 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_necklace.js,tag=点点券
 
 # 东东萌宠
 cron "15 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pet.js,tag=东东萌宠
