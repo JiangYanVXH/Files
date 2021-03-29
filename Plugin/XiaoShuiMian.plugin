@@ -1,0 +1,5 @@
+[Script]
+http-response ^https:\/\/api\.psy-1\.com\/cosleep\/user\/info requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/xiaoshuimian.js,tag=小睡眠
+
+[MITM]
+hostname = api.psy-1.com
