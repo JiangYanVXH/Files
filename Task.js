@@ -38,7 +38,7 @@ cron "11 12,14 17-30 3 *" script-path=https://raw.githubusercontent.com/i-chenzh
 cron "5 8,14,20 25-31 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js,tag=母婴-跳一跳
 
 # 京东小魔方
-cron "10 10 25-27 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_xmf.js,tag=京东小魔方
+# cron "10 10 25-27 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_xmf.js,tag=京东小魔方
 
 # 5G超级盲盒
 cron "5 1,6,11,16,21 * 3-4 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒
@@ -103,29 +103,11 @@ cron "2 9,12,20,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net
 # 京东赚赚
 cron "22 2,4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js,tag=京东赚赚
 
-# 源头好物红包
-cron "11 10 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_coupon.js, tag=源头好物红包
-
-# 京东手机年终奖
-cron "16 0 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_festival.js, tag=京东手机年终奖
-
-# 集鞭炮赢京豆
-cron "10 8,21 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_firecrackers.js,tag=集鞭炮赢京豆
-
-# 京东神仙书院
-cron "20 8 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal.js,tag=京东神仙书院
-
-# 京东神仙书院答题
-cron "20 8 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal_answer.js,tag=京东神仙书院答题
-
 # 京东超级盒子
-cron "20 7 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_super_box.js,tag=京东超级盒子
-
-# 东东工厂
-cron "17 * * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jdfactory.js,tag=东东工厂
+cron "20 7 * * *" script-path=https://raw.githubusercontent.com/aledai/lxk9301/master/jd_super_box.js,tag=京东超级盒子
 
 # 京东直播
-cron "10-20/5 12 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_live.js,tag=京东直播
+cron "10-20/5 12 * * *" script-path=https://raw.githubusercontent.com/aledai/lxk9301/master/jd_live.js,tag=京东直播
 
 # 京东快递签到
 cron "24 2,4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_kd.js, tag=京东快递签到
@@ -231,4 +213,4 @@ cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js,tag=京东删除优惠券
 
 # 注销京东会员卡
-cron "55 23 * * 6" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_unbind.js,tag=注销京东会员卡
+cron "55 23 * * 6" script-path=https://raw.githubusercontent.com/aledai/lxk9301/master/jd_unbind.js,tag=注销京东会员卡
