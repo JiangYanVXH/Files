@@ -65,13 +65,13 @@ cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/mai
 # cron "0 * * * *" script-path=https://qxzy.top/rules/QuantumultX/js/jd_xxl.js, enabled=true, tag=东东爱消除
 
 # 京东排行榜
-cron "11 9,10 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
+cron "11 9,13 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 
 # 领京豆额外奖励
-cron "12 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
+cron "12 7,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
 
 # 京东汽车
-cron "10 7,8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
+cron "10 7,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
 
 # 京东汽车兑换
 cron "1 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, tag=京东汽车兑换
@@ -116,7 +116,7 @@ cron "24 2,4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 cron "3 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_moneyTree.js,tag=摇钱树
 
 # 秒秒币
-cron "10 8,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_ms.js,tag=秒秒币
+cron "10 9,11 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_ms.js,tag=秒秒币
 
 # 点点券
 cron "10 2,4,20 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js,tag=点点券
@@ -135,7 +135,7 @@ cron "1 1,2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 cron "20 8,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js, tag=闪购盲盒
 
 # 进店领豆
-cron "6,9 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
+cron "6,9 0 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
 
 # 东东小窝
 cron "16 12,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_small_home.js, tag=东东小窝
@@ -144,7 +144,7 @@ cron "16 12,22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdr
 cron "8 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js,tag=天天加速
 
 # 东东超市
-cron "11 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js,tag=东东超市
+cron "13 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js,tag=东东超市
 
 # 东东超市兑换奖品
 cron "3 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js,tag=东东超市兑换奖品
