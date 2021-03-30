@@ -1,0 +1,8 @@
+# github账号被封，可添加配置转移到gitee链接
+# https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Plugin/jd_scripts%2BGitHub2Gitee.plugin
+
+[URL Rewrite]
+^https:\/\/raw\.githubusercontent\.com\/LXK9301\/jd_scripts\/ https://gitee.com/lxk0301/jd_scripts/raw/ 302
+
+[MITM]
+hostname = raw.githubusercontent.com
