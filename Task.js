@@ -28,11 +28,11 @@ cron "10 10,11 * * 2-5" script-path=https://raw.githubusercontent.com/i-chenzhe/
 # 众筹许愿池
 # cron "10 10,15 13-20 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js,tag=众筹许愿池
 
-# 联想集卡
-cron "12 15,14 15-29 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js, tag=联想集卡活动
+# 联想集卡活动
+# cron "12 15,14 15-29 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js, tag=联想集卡活动
 
 # 一加盲盒
-cron "11 12,14 17-30 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js, tag=一加盲盒
+# cron "11 12,14 17-30 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js, tag=一加盲盒
 
 # 母婴跳一跳
 cron "5 8,14,20 25-31 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js,tag=母婴-跳一跳
