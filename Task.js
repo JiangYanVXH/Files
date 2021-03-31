@@ -156,7 +156,7 @@ cron "10 7,11 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdre
 cron "10 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
 
 # 宠汪汪喂食
-cron "10 0-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_feedPets.js,tag=京东宠汪汪喂食
+cron "11 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_feedPets.js,tag=京东宠汪汪喂食
 
 # 宠汪汪强制为别人助力
 http-request ^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_help.js, requires-body=true, timeout=3600, tag=宠汪汪强制为别人助力
