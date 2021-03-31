@@ -10,7 +10,7 @@ cron "1 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Scri
 
 # > 微信小程序
 # 来客有礼
-cron "18 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, enabled=true, tag=来客有礼
+# cron "18 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, enabled=true, tag=来客有礼
 
 # > 京东APP
 # 京豆变动通知
