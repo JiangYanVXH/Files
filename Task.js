@@ -216,8 +216,7 @@ cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/Qu
 # cron "55 23 * * 6" script-path=https://raw.githubusercontent.com/aledai/lxk9301/master/jd_unbind.js,tag=注销京东会员卡
 
 # >机场签到
-cron "4 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
-cron "5 8 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, tag=机场签到Cookie版
+cron "12 9 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # >Boxjs
 # 抹掉全局备份
