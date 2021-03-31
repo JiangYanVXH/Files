@@ -83,7 +83,7 @@ cron "10 0-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "5 2,4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_club_lottery.js,tag=摇京豆
 
 # crazyJoy任务
-cron "12 7,14 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy.js,tag=crazyJoy任务
+# cron "12 7,14 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy.js,tag=crazyJoy任务
 
 # 监控crazyJoy分红
 # cron "10 12 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy_bonus.js,tag=监控crazyJoy分红
