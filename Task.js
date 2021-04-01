@@ -65,7 +65,7 @@ cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/mai
 # cron "0 * * * *" script-path=https://qxzy.top/rules/QuantumultX/js/jd_xxl.js, enabled=true, tag=东东爱消除
 
 # 京东排行榜
-cron "11 9,13 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
+cron "17 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 
 # 领京豆额外奖励
 cron "12 7,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js, tag=领京豆额外奖励
@@ -132,7 +132,7 @@ cron "1 7-21/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdr
 cron "1 1,2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js, tag=全民开红包
 
 # 闪购盲盒
-cron "20 8,9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js, tag=闪购盲盒
+cron "20 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js, tag=闪购盲盒
 
 # 进店领豆
 cron "8,10 0 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js,tag=进店领豆
@@ -208,7 +208,7 @@ http-request ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detai
 cron "13 11,16 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流派件提醒
 
 # 取关京东店铺和商品
-cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
+cron "53,55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
 
 # 删除优惠券
 cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js,tag=京东删除优惠券
@@ -218,7 +218,7 @@ cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/Qu
 
 # >机场签到
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
-cron "12 9,13 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
+cron "12 9 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # >Boxjs
 # 抹掉全局备份
