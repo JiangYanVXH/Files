@@ -1,7 +1,7 @@
 # > 叮咚买菜
-# 叮咚签到
-cron "10 6 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
-# 叮咚农场
+# 叮咚买菜签到
+cron "30 28 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
+# 叮咚农场养鱼
 cron "18 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
 
 # > 淘宝系
