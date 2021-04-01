@@ -156,22 +156,22 @@ cron "10 7,11 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdre
 cron "10 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
 
 # 宠汪汪喂食
-cron "11 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_feedPets.js,tag=京东宠汪汪喂食
+# cron "11 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_feedPets.js,tag=京东宠汪汪喂食
 
 # 宠汪汪强制为别人助力
-http-request ^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_help.js, requires-body=true, timeout=3600, tag=宠汪汪强制为别人助力
+# http-request ^https:\/\/draw\.jdfcloud\.com\/\/common\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_help.js, requires-body=true, timeout=3600, tag=宠汪汪强制为别人助力
 
 # 宠汪汪积分兑换奖品
 cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
 
 # 宠汪汪赛跑
-cron "15 10,15 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力
+cron "15 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力
 
 # 宠汪汪助力更新Token
-http-response ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
+# http-response ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
 
 # 宠汪汪助力获取Token
-http-request ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, timeout=3600, tag=宠汪汪助力获取Token
+# http-request ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, timeout=3600, tag=宠汪汪助力获取Token
 
 # 宠汪汪偷好友积分与狗粮
 # cron "10 0-21/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js,tag=宠汪汪偷好友积分与狗粮
