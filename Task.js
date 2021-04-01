@@ -20,10 +20,10 @@ cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 # cron "5 1 23-25 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_grassy.js, enabled=true, tag=答题赢京豆
 
 # 京东国际环球挑战赛
-cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
+# cron "2 9 8-31 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js, tag=京东国际环球挑战赛
 
 # 百变大咖秀 
-cron "10 10,11 * * 2-5" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js,tag=百变大咖秀
+cron "10 10 * * 2-5" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js,tag=百变大咖秀
 
 # 众筹许愿池
 # cron "10 10,15 13-20 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js,tag=众筹许愿池
@@ -47,7 +47,7 @@ cron "5 1,6,11,16,21 * 3-4 *" script-path=https://raw.githubusercontent.com/i-ch
 # cron "8 0,1 * 3 *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js, tag=金口碑奖投票
 
 # 女装盲盒
-cron "0,5 8 22-31/1 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
+# cron "0,5 8 22-31/1 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 # 阳光矿场
 # cron "0 9 * * *" script-path=https://qxzy.top/rules/QuantumultX/js/zhiyi/ygkc.js, enabled=true, tag=阳光矿场
@@ -57,6 +57,9 @@ cron "0,5 8 22-31/1 3 *" script-path=https://jdsharedresourcescdn.azureedge.net/
 
 # 领现金自动获得酬劳
 cron "15 7,15 * * *" script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_reward.js, enabled=true, tag=领现金自动获得酬劳
+
+# 京东手机狂欢城
+cron "0 0-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
 # 摇一摇
 cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js,tag=摇一摇
