@@ -49,9 +49,6 @@ cron "5 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 # 东东农场
 cron "5 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_fruit.js,tag=东东农场
 
-# 获取互助码
-# cron "22 13 * * 6" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_get_share_code.js, tag=获取互助码
-
 # 京东国际盲盒
 cron "2 9,12,20,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global_mh.js,tag=京东国际盲盒
 
@@ -95,7 +92,7 @@ cron "12 0 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdres
 cron "17 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js, tag=赚京豆
 
 # 宠汪汪
-cron "10 0-23/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
+cron "10 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
 
 # 宠汪汪积分兑换奖品
 cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
@@ -105,7 +102,7 @@ cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdr
 cron "22 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流派件提醒
 
 # 取关京东店铺和商品
-cron "53,55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
+cron "50,52 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
 
 # 删除优惠券
 cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js,tag=京东删除优惠券
@@ -115,7 +112,7 @@ cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdreso
 
 # >机场签到
 # boxjs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
-cron "12 9 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
+cron "13 9 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到
 
 # >Boxjs
 # 抹掉全局备份
