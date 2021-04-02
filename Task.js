@@ -26,7 +26,7 @@ cron "0 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/
 cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 # 摇一摇
-cron "3 20 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js,tag=摇一摇
+cron "3 20 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Files/main/Script/jd_yyy.js,tag=摇一摇
 
 # 京东排行榜
 cron "17 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
