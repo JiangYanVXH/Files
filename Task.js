@@ -105,7 +105,7 @@ cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdr
 cron "50,52 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
 
 # 删除优惠券
-cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js,tag=京东删除优惠券
+cron "50 23 * * 1" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_deleteCoupon.js, enable=false, tag=京东删除优惠券
 
 # 获取京东互助码
 cron "12 22 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_get_share_code.js, enable=false, tag=获取互助码
