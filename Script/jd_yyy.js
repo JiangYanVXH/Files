@@ -1,6 +1,6 @@
-# https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
-
 /*
+https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js
+
 摇一摇
 不定时京豆活动
 有看到新活动可以私信我添加活动ID。 GitHub@i-chenzhe
