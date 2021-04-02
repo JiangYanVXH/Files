@@ -4,14 +4,6 @@ cron "28 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scrip
 # 叮咚农场养鱼
 cron "24 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
 
-# > 淘宝系
-# 饿了么
-# cron "45 5,10 * * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0, tag=饿了么
-
-# > 微信小程序
-# 来客有礼
-# cron "18 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, enabled=true, tag=来客有礼
-
 # > 京东APP
 # 京豆变动通知
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
@@ -96,10 +88,6 @@ cron "10 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 
 # 宠汪汪积分兑换奖品
 cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
-
-# 京东物流派件提醒
-# Boxjs订阅：https://raw.githubusercontent.com/id77/QuantumultX/master/box.json
-cron "22 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流派件提醒
 
 # 取关京东店铺和商品
 cron "50,52 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
