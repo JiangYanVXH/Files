@@ -29,6 +29,9 @@ cron "35 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust
 # 关注有礼
 cron "13 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
 
+# 渠道店铺签到
+cron "11 1 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_inter_shop_sign.js,tag=interCenter渠道店铺签到
+
 # 京东排行榜
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
 
