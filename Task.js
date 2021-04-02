@@ -11,6 +11,9 @@ cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 # 5G超级盲盒
 cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Files/main/Script/jd_5G.js, tag=5G超级盲盒
 
+# 京东小魔方
+cron "10 10 1-3 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
+
 # 京东手机狂欢城
 cron "0 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
