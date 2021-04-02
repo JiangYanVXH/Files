@@ -58,9 +58,6 @@ cron "2 9,12,20,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net
 # 京东赚赚
 cron "22 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js,tag=京东赚赚
 
-# 京东超级盒子
-cron "20 7 * * *" script-path=https://raw.githubusercontent.com/aledai/lxk9301/master/jd_super_box.js,tag=京东超级盒子
-
 # 京东快递签到
 cron "24 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_kd.js, tag=京东快递签到
 
