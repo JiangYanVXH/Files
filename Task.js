@@ -99,7 +99,7 @@ cron "17 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "10 0-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
 
 # 宠汪汪积分兑换奖品
-cron "0 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
+cron "1,5 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
 
 # 取关京东店铺和商品
 cron "50,52 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
