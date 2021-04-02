@@ -23,6 +23,9 @@ cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdre
 # 摇一摇
 cron "3 20 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shake.js,tag=摇一摇
 
+# 加购有礼
+cron "35 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_shop_add_to_car.js,tag=加购有礼
+
 # 关注有礼
 cron "13 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
 
