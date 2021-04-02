@@ -56,9 +56,6 @@ cron "5 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 # 东东农场
 cron "5 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_fruit.js,tag=东东农场
 
-# 京东国际盲盒
-cron "2 9,12,20,21 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global_mh.js,tag=京东国际盲盒
-
 # 京东赚赚
 cron "22 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js,tag=京东赚赚
 
