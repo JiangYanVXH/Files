@@ -9,7 +9,7 @@ cron "24 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Scr
 cron "5 9 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知
 
 # 5G超级盲盒
-cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Files/main/Script/jd_5G.js, tag=5G超级盲盒
+cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_super5g.js, tag=5G超级盲盒
 
 # 京东小魔方
 cron "10 10 1-3 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
@@ -21,7 +21,7 @@ cron "0 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/
 cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
 
 # 摇一摇
-cron "3 20 * * *" script-path=https://raw.githubusercontent.com/JiangYanVXH/Files/main/Script/jd_yyy.js,tag=摇一摇
+cron "3 20 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_shake.js,tag=摇一摇
 
 # 京东排行榜
 cron "11 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,tag=京东排行榜
