@@ -68,6 +68,9 @@ cron "24 2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 # 秒秒币
 cron "14 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_ms.js,tag=秒秒币
 
+# 点点券
+cron "10 10,20 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_necklace.js,tag=点点券
+
 # 东东萌宠
 cron "15 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_pet.js,tag=东东萌宠
 
