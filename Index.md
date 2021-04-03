@@ -21,3 +21,7 @@ https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/Esign.plist
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/JSBox.plist
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/IPA_Installer.plugin
 https://raw.githubusercontent.com/JiangYanVXH/Files/main/IPA/IPA_Installer.js
+
+lxk030/
+https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_LoonTask.conf
+https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301_cookies.conf
