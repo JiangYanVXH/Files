@@ -18,7 +18,7 @@ cron "10 10 1-3 4 *" script-path=https://raw.githubusercontent.com/monk-coder/du
 cron "0 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
 # 超级直播间红包雨
-cron "0,30 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
+cron "5 0,30,31 20-23/1 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js, enable=false, tag=超级直播间红包雨
 
 # 女装盲盒
 cron "35 1,23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js,tag=女装盲盒
