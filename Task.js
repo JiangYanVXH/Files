@@ -102,7 +102,7 @@ cron "1 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresour
 cron "17 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js, tag=赚京豆
 
 # 宠汪汪
-cron "42 1-23/3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
+cron "42 1-23/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js,tag=京东宠汪汪
 
 # 宠汪汪积分兑换奖品
 cron "1,5 0-16/8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
