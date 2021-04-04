@@ -33,7 +33,7 @@ cron "35 12 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust
 cron "13 15 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_follow_sku.js,tag=关注有礼
 
 # 渠道店铺签到
-cron "11 1 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_inter_shop_sign.js,tag=interCenter渠道店铺签到
+cron "52 0 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_inter_shop_sign.js,tag=interCenter渠道店铺签到
 
 # 店铺大转盘
 cron "8 3,23 * * *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/monk_shop_lottery.js,tag=店铺大转盘
