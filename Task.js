@@ -48,7 +48,7 @@ cron "12 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresou
 cron "10 7 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车
 
 # 京东汽车兑换
-cron "1 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, tag=京东汽车兑换
+cron "1 0 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, enable=false, tag=京东汽车兑换
 
 # 签到领现金
 cron "38 0-17/4 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cash.js,tag=签到领现金
