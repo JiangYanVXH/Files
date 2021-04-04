@@ -2,7 +2,7 @@
 # 叮咚买菜签到
 cron "28 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,tag=叮咚买菜
 # 叮咚农场养鱼
-cron "24 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
+cron "24 8,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚养鱼
 
 # > 京东APP
 # 京豆变动通知
