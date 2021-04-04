@@ -78,7 +78,7 @@ cron "15 6-18/6 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jd
 cron "1 7-21/2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_plantBean.js,tag=种豆得豆
 
 # 全民开红包
-cron "1 3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js, tag=全民开红包
+# cron "1 3 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_redPacket.js, tag=全民开红包
 
 # 闪购盲盒
 cron "20 8 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_sgmh.js, tag=闪购盲盒
