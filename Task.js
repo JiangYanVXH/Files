@@ -18,7 +18,7 @@ cron "10 10 4-6 4 *" script-path=https://raw.githubusercontent.com/monk-coder/du
 cron "6 8,14,20 6-13 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
 
 # 创维408下班全勤奖
-cron "53 8 2-18 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_skyworth_car.js,tag=创维408下班全勤
+cron "32 8 2-18 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/car/monk_skyworth_car.js,tag=创维408下班全勤
 
 # 京东手机狂欢城
 cron "1 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
