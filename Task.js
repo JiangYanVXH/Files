@@ -14,6 +14,9 @@ cron "5 1-23/5 * 3-4 *" script-path=https://raw.githubusercontent.com/monk-coder
 # 京东小魔方
 cron "10 10 4-6 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_xmf.js,tag=京东小魔方
 
+# 母婴跳一跳
+cron "6 8,14,20 6-13 4 *" script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/z_mother_jump.js,tag=母婴-跳一跳
+
 # 京东手机狂欢城
 cron "1 0-18/6 1-20 4 *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_carnivalcity.js, tag=京东手机狂欢城
 
