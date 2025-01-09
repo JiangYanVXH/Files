@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="780" viewBox="0 0 375 780" style="background-color: #fafafa;">
+  <!-- 标题 -->
+  <text x="187.5" y="50" font-size="24" font-weight="bold" fill="#333" text-anchor="middle" font-family="Arial, sans-serif">沟通障碍分析</text>
+  <!-- 认知层面 -->
+  <rect x="12.5" y="80" width="350" height="120" rx="10" ry="10" fill="#e3f2fd" stroke="#64b5f6" stroke-width="2" />
+  <text x="25" y="110" font-size="16" font-weight="bold" fill="#1e88e5" font-family="Arial, sans-serif">认知层面</text>
+  <text x="25" y="135" font-size="14" fill="#333" font-family="Arial, sans-serif">信息差异：知识储备、信息来源及理解方式</text>
+  <text x="25" y="155" font-size="14" fill="#333" font-family="Arial, sans-serif">认知偏差：确认偏误、刻板印象、过度自信、归因偏差</text>
+  <text x="25" y="175" font-size="14" fill="#333" font-family="Arial, sans-serif">思维模式：逻辑推理方式、价值观念、问题分析角度</text>
+  <!-- 沟通层面 -->
+  <rect x="12.5" y="210" width="350" height="120" rx="10" ry="10" fill="#fff3e0" stroke="#ffb74d" stroke-width="2" />
+  <text x="25" y="240" font-size="16" font-weight="bold" fill="#fb8c00" font-family="Arial, sans-serif">沟通层面</text>
+  <text x="25" y="265" font-size="14" fill="#333" font-family="Arial, sans-serif">表达能力：语言组织、表达准确性、非语言沟通技巧</text>
+  <text x="25" y="285" font-size="14" fill="#333" font-family="Arial, sans-serif">倾听质量：同理心缺失、选择性倾听、频繁打断</text>
+  <text x="25" y="305" font-size="14" fill="#333" font-family="Arial, sans-serif">互动方式：反馈技巧、语气态度、语言策略</text>
+  <!-- 心理层面 -->
+  <rect x="12.5" y="340" width="350" height="120" rx="10" ry="10" fill="#fce4ec" stroke="#f48fb1" stroke-width="2" />
+  <text x="25" y="370" font-size="16" font-weight="bold" fill="#e91e63" font-family="Arial, sans-serif">心理层面</text>
+  <text x="25" y="395" font-size="14" fill="#333" font-family="Arial, sans-serif">情绪状态：愤怒、焦虑、恐惧等负面情绪的干扰</text>
+  <text x="25" y="415" font-size="14" fill="#333" font-family="Arial, sans-serif">心理防御：面子、自尊心、不愿认错的防御行为</text>
+  <text x="25" y="435" font-size="14" fill="#333" font-family="Arial, sans-serif">心理需求：寻求认可、控制欲、胜负心</text>
+  <!-- 关系层面 -->
+  <rect x="12.5" y="470" width="350" height="120" rx="10" ry="10" fill="#e8f5e9" stroke="#81c784" stroke-width="2" />
+  <text x="25" y="500" font-size="16" font-weight="bold" fill="#2e7d32" font-family="Arial, sans-serif">关系层面</text>
+  <text x="25" y="525" font-size="14" fill="#333" font-family="Arial, sans-serif">权力动态：地位差异、权威或从属关系的影响</text>
+  <text x="25" y="545" font-size="14" fill="#333" font-family="Arial, sans-serif">互信基础：历史积累的信任程度与过往经验</text>
+  <text x="25" y="565" font-size="14" fill="#333" font-family="Arial, sans-serif">利益冲突：目标与核心诉求的不一致</text>
+  <!-- 环境层面 -->
+  <rect x="12.5" y="600" width="350" height="120" rx="10" ry="10" fill="#e0f7fa" stroke="#4dd0e1" stroke-width="2" />
+  <text x="25" y="630" font-size="16" font-weight="bold" fill="#0097a7" font-family="Arial, sans-serif">环境层面</text>
+  <text x="25" y="655" font-size="14" fill="#333" font-family="Arial, sans-serif">物理环境：时间压力、外界干扰、场合适当性</text>
+  <text x="25" y="675" font-size="14" fill="#333" font-family="Arial, sans-serif">社会环境：文化背景、群体规范、社会期望</text>
+</svg>
+
